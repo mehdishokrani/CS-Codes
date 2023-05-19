@@ -32,6 +32,9 @@ namespace ProgChallengeStart
                 else
                 Console.WriteLine("My number is lower than yours \nEnter smaller number: ");
                 
+                //instead of these else statements we can write below code as well
+                //Console.WriteLine("Nope {0} than that!", number<theNumber ? "higher" : "lower");
+                
 
             }
             catch{
