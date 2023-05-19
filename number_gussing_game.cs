@@ -37,6 +37,8 @@ namespace ProgChallengeStart
             catch{
                 Console.WriteLine("Please enter a number between 0 and 20");
             }
+            //Instead of Try Catch we can use following command and only use if else statement 
+            //bool result = Int32.TryParse(ip, out number);
             }
 
         }
